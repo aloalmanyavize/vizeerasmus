@@ -1,0 +1,34 @@
+{
+  "sites": [
+    {
+      "name": "ALO Vize Randevu",
+      "domain": "alovizerandevu.com",
+      "sitemap": "https://alovizerandevu.com/sitemap.xml",
+      "focus": ["vize rehberi", "iDATA Ankara", "VFS Global", "Schengen"]
+    },
+    {
+      "name": "ALO Almanya Vize",
+      "domain": "aloalmanyavize.com",
+      "sitemap": "https://aloalmanyavize.com/sitemap.xml",
+      "focus": ["Almanya ulusal vize", "aile birleşimi", "çalışma vizesi", "iDATA"]
+    },
+    {
+      "name": "Vize Erasmus",
+      "domain": "vizeerasmus.com",
+      "sitemap": "https://vizeerasmus.com/sitemap.xml",
+      "focus": ["Erasmus vizesi", "öğrenci vizesi", "ülke rehberi", "evrak kontrolü"]
+    },
+    {
+      "name": "Gündoğan Vize",
+      "domain": "gundoganvize.com",
+      "sitemap": "https://gundoganvize.com/sitemap.xml",
+      "focus": ["Schengen vizesi", "ülke bazlı vize", "gerekli evraklar", "long-tail rehberler"]
+    }
+  ],
+  "settings": {
+    "maxNewUrlsPerSite": 8,
+    "queueRetentionDays": 30,
+    "defaultLanguage": "tr",
+    "allowCrossSiteLinks": false
+  }
+}
