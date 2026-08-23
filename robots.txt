@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
 # Public pages are crawlable. Keep the canonical sitemap as the discovery source.
 Sitemap: https://vizeerasmus.com/sitemap.xml
