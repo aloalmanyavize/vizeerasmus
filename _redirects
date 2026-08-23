@@ -1,0 +1,45 @@
+# Canonicalize Cloudflare clean-URL aliases to the .html URLs used in sitemap/canonical tags.
+/campus-france-danismanlik /campus-france-danismanlik.html 301
+/ulkeler /ulkeler.html 301
+/rehberler /rehberler.html 301
+/blog /blog.html 301
+/asistan /asistan.html 301
+/evrak-kontrolu /evrak-kontrolu.html 301
+/haberler /haberler.html 301
+/topluluk /topluluk.html 301
+
+/blog/erasmus-hibesi-butce-rehberi /blog/erasmus-hibesi-butce-rehberi.html 301
+/blog/learning-agreement-rehberi /blog/learning-agreement-rehberi.html 301
+/blog/erasmus-staj-sigorta-rehberi /blog/erasmus-staj-sigorta-rehberi.html 301
+/blog/almanya-erasmus-vize-finansman-rehberi /blog/almanya-erasmus-vize-finansman-rehberi.html 301
+/blog/erasmus-konaklama-rehberi /blog/erasmus-konaklama-rehberi.html 301
+
+/ulkeler/almanya /ulkeler/almanya.html 301
+/ulkeler/avusturya /ulkeler/avusturya.html 301
+/ulkeler/belcika /ulkeler/belcika.html 301
+/ulkeler/bulgaristan /ulkeler/bulgaristan.html 301
+/ulkeler/cekya /ulkeler/cekya.html 301
+/ulkeler/danimarka /ulkeler/danimarka.html 301
+/ulkeler/estonya /ulkeler/estonya.html 301
+/ulkeler/finlandiya /ulkeler/finlandiya.html 301
+/ulkeler/fransa /ulkeler/fransa.html 301
+/ulkeler/hirvatistan /ulkeler/hirvatistan.html 301
+/ulkeler/hollanda /ulkeler/hollanda.html 301
+/ulkeler/ispanya /ulkeler/ispanya.html 301
+/ulkeler/isvec /ulkeler/isvec.html 301
+/ulkeler/isvicre /ulkeler/isvicre.html 301
+/ulkeler/italya /ulkeler/italya.html 301
+/ulkeler/izlanda /ulkeler/izlanda.html 301
+/ulkeler/letonya /ulkeler/letonya.html 301
+/ulkeler/lihtenstayn /ulkeler/lihtenstayn.html 301
+/ulkeler/litvanya /ulkeler/litvanya.html 301
+/ulkeler/luksemburg /ulkeler/luksemburg.html 301
+/ulkeler/macaristan /ulkeler/macaristan.html 301
+/ulkeler/malta /ulkeler/malta.html 301
+/ulkeler/norvec /ulkeler/norvec.html 301
+/ulkeler/polonya /ulkeler/polonya.html 301
+/ulkeler/portekiz /ulkeler/portekiz.html 301
+/ulkeler/romanya /ulkeler/romanya.html 301
+/ulkeler/slovakya /ulkeler/slovakya.html 301
+/ulkeler/slovenya /ulkeler/slovenya.html 301
+/ulkeler/yunanistan /ulkeler/yunanistan.html 301
