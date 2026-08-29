@@ -1,0 +1,21 @@
+# VizeErasmus
+
+> Erasmus öğrencileri için ülke rehberleri, vize ve oturum süreçleri, Learning Agreement, hibe, konaklama, sigorta ve evrak hazırlığı hakkında Türkçe bilgi platformu.
+
+## Ana kaynaklar
+- https://vizeerasmus.com/
+- https://vizeerasmus.com/ulkeler.html
+- https://vizeerasmus.com/rehberler.html
+- https://vizeerasmus.com/evrak-kontrolu.html
+- https://vizeerasmus.com/asistan.html
+- https://vizeerasmus.com/haberler.html
+- https://vizeerasmus.com/campus-france-danismanlik.html
+
+## Öne çıkan ülke rehberleri
+- https://vizeerasmus.com/ulkeler/almanya.html
+- https://vizeerasmus.com/ulkeler/ispanya.html
+- https://vizeerasmus.com/ulkeler/fransa.html
+- https://vizeerasmus.com/ulkeler/italya.html
+- https://vizeerasmus.com/ulkeler/hollanda.html
+
+Bilgiler genel bilgilendirme amaçlıdır; resmî program, üniversite, konsolosluk ve başvuru merkezi kaynakları başvuru öncesinde ayrıca kontrol edilmelidir.
