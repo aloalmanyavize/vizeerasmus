@@ -4,5 +4,19 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-# Public pages are crawlable. Keep the canonical sitemap as the discovery source.
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://vizeerasmus.com/sitemap.xml
