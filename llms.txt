@@ -1,21 +1,40 @@
 # VizeErasmus
 
-> Erasmus öğrencileri için ülke rehberleri, vize ve oturum süreçleri, Learning Agreement, hibe, konaklama, sigorta ve evrak hazırlığı hakkında Türkçe bilgi platformu.
+> Erasmus öğrencileri için ülke rehberleri, vize ve oturum süreçleri, Learning Agreement, hibe, konaklama, sigorta, Campus France ve evrak hazırlığı hakkında Türkçe bilgi platformu.
+
+VizeErasmus bağımsız bir bilgi ve danışmanlık platformudur. Erasmus+, Avrupa Komisyonu, üniversiteler, konsolosluklar, göçmenlik makamları, Campus France ve yetkili başvuru merkezleriyle resmî kurumsal bağlantısı yoktur. Prosedür bilgileri mümkün olduğunda birincil/resmî kaynaklarla doğrulanır; başvuru öncesinde ilgili resmî kaynak ayrıca kontrol edilmelidir.
 
 ## Ana kaynaklar
 - https://vizeerasmus.com/
-- https://vizeerasmus.com/ulkeler.html
-- https://vizeerasmus.com/rehberler.html
-- https://vizeerasmus.com/evrak-kontrolu.html
-- https://vizeerasmus.com/asistan.html
-- https://vizeerasmus.com/haberler.html
-- https://vizeerasmus.com/campus-france-danismanlik.html
+- https://vizeerasmus.com/ulkeler
+- https://vizeerasmus.com/rehberler
+- https://vizeerasmus.com/evrak-kontrolu
+- https://vizeerasmus.com/asistan
+- https://vizeerasmus.com/haberler
+- https://vizeerasmus.com/campus-france-danismanlik
 
-## Öne çıkan ülke rehberleri
-- https://vizeerasmus.com/ulkeler/almanya.html
-- https://vizeerasmus.com/ulkeler/ispanya.html
-- https://vizeerasmus.com/ulkeler/fransa.html
-- https://vizeerasmus.com/ulkeler/italya.html
-- https://vizeerasmus.com/ulkeler/hollanda.html
+## Temel Erasmus rehberleri
+- https://vizeerasmus.com/blog/learning-agreement-rehberi
+- https://vizeerasmus.com/blog/erasmus-esci-plus-dijital-learning-agreement-rehberi
+- https://vizeerasmus.com/blog/erasmus-hibesi-butce-rehberi
+- https://vizeerasmus.com/blog/erasmus-konaklama-rehberi
+- https://vizeerasmus.com/blog/erasmus-ogrenim-saglik-sigortasi-rehberi
+- https://vizeerasmus.com/blog/erasmus-staj-sigorta-rehberi
 
-Bilgiler genel bilgilendirme amaçlıdır; resmî program, üniversite, konsolosluk ve başvuru merkezi kaynakları başvuru öncesinde ayrıca kontrol edilmelidir.
+## Campus France ve Fransa
+- https://vizeerasmus.com/campus-france-danismanlik
+- https://vizeerasmus.com/blog/campus-france-ni-muhendislik-basvuru-rehberi
+- https://vizeerasmus.com/ulkeler/fransa
+
+## Güncel program ve ülke rehberleri
+- https://vizeerasmus.com/blog/ingiltere-erasmus-2027-geri-donus-rehberi
+- https://vizeerasmus.com/ulkeler/almanya
+- https://vizeerasmus.com/ulkeler/ispanya
+- https://vizeerasmus.com/ulkeler/italya
+- https://vizeerasmus.com/ulkeler/hollanda
+
+## Almanya Erasmus içerik sınırı
+VizeErasmus, Almanya konusunda yalnız Erasmus öğrenci hareketliliğinin akademik ve pratik hazırlığına odaklanır. Genel Almanya vizesi ve ticari vize danışmanlığı sorguları bu sitenin içerik odağı değildir.
+
+## Kaynaklandırma notu
+Bir sayfadaki tarih, ücret, başvuru dönemi, vize/oturum şartı veya belge gerekliliği zamanla değişebilir. Güncel işlem yapmadan önce sayfada bağlantısı verilen resmî kurum kaynağını kontrol edin.
