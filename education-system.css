@@ -1,0 +1,40 @@
+/* VizeErasmus / Educenter-inspired free education design system.
+   Original adaptation; no demo photos or third-party template assets copied. */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--navy:#102f42;--navy2:#0c2636;--blue:#087d78;--blue2:#0d9488;--ink:#173447;--muted:#647785;--line:#e0e9e7;--soft:#f3f8f6;--green:#0b9b77}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#f7faf9;color:#173447}
+.shell,.wrap{max-width:1240px}
+.topbar,.top{background:#0e3040}
+.navbar,.nav{background:#fff;border-color:#e5eeeb;box-shadow:0 4px 22px #102f4209}
+.brand,.logo,.brand strong{font-family:Manrope,system-ui,sans-serif;color:#133e49;font-weight:800;letter-spacing:-.045em}
+.menu .cta,.desktop-nav .nav-cta,.cta,.button,.searchbox button{background:#087d78;color:#fff;box-shadow:none!important;text-shadow:none!important;border-radius:9px}
+.menu .cta:hover,.desktop-nav .nav-cta:hover,.cta:hover,.button:hover{box-shadow:0 12px 22px #087d782b!important}
+.pagehero,body[data-country] .hero{position:relative;overflow:hidden;background:radial-gradient(circle at 84% 27%,#247d7445 0,transparent 32%),linear-gradient(120deg,#0e3040,#155b61);color:#fff;padding-top:72px;padding-bottom:68px}
+.pagehero:after,body[data-country] .hero:after{content:"";position:absolute;width:310px;height:310px;border:1px solid #ffffff26;border-radius:50%;right:4%;top:-115px;pointer-events:none;box-shadow:0 0 0 48px #ffffff07,0 0 0 105px #ffffff05}
+.pagehero .shell,body[data-country] .hero .wrap{position:relative;z-index:1}
+.pagehero h1,body[data-country] .hero h1{font-family:Manrope,system-ui,sans-serif;color:#fff;font-size:clamp(34px,4.3vw,61px);line-height:1.11;letter-spacing:-.055em;max-width:940px;text-shadow:none}
+.pagehero p,body[data-country] .hero p{color:#d8e9e7;font-size:clamp(14px,1.4vw,18px);line-height:1.75}
+.pagehero .crumb,body[data-country] .hero .crumb,.pagehero .crumb a,body[data-country] .hero .crumb a{color:#b7d8d4}
+.pagehero .eyebrow,body[data-country] .hero .kicker{background:#ffffff20;color:#c8f8e9;border:1px solid #ffffff40}
+body[data-country] .hero .chips span{color:#134a4b;background:#fff;border:0}
+.main{padding-top:44px}
+.card,.linkcard,.country-card,.newsitem,.faq details,.community-panel,.news-card,.destination,.quick-card{background:#fff;border:1px solid #e1ebe8;border-radius:16px;box-shadow:0 14px 32px #10394a0b;text-shadow:none}
+.card{padding:clamp(19px,2.4vw,30px)}
+.card h2,.card h3,.section-title h2,.linkcard b{font-family:Manrope,system-ui,sans-serif;color:#153e49;letter-spacing:-.035em;text-shadow:none}
+.card h2{font-size:clamp(21px,2.1vw,28px)}
+.card p,.card li,.linkcard span,.country-card p{color:#536d79;line-height:1.8}
+.linkcard{padding:22px;min-height:155px;display:flex;flex-direction:column;gap:6px}
+.linkcard em,.country-card a,.sourcebox a,.official a,.toc a{color:#087d78}
+.pill,.eyebrow{background:#e0f3ed;color:#087d78}
+.checkpanel{background:linear-gradient(135deg,#123c4c,#0a776f);box-shadow:0 18px 40px #10394a20}
+.button.secondary,.button.alt{background:#e3f3ef;color:#08665f}
+.newsart{background:linear-gradient(135deg,#d4eee5,#a8d6d0);color:#0c645f}
+.newsitem{padding:20px;gap:20px}
+.newsitem p{line-height:1.7}
+.faq details{padding:18px 20px}
+.footer,footer.footer{background:#0c2939;color:#d8e8e5}
+:focus-visible{outline:3px solid #16a99c;outline-offset:3px}
+@media(max-width:900px){.pagehero,body[data-country] .hero{padding-top:48px;padding-bottom:47px}}
+@media(max-width:560px){.pagehero,body[data-country] .hero{padding-top:37px;padding-bottom:39px}.pagehero h1,body[data-country] .hero h1{font-size:34px}.card,.linkcard,.newsitem{padding:18px}.linkcard{min-height:0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
