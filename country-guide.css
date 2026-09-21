@@ -1,4 +1,43 @@
-@import url('/education-system.css?v=20260921');
 :root{--navy:#071f5d;--blue:#0d62ff;--ink:#102653;--muted:#61718d;--line:#e1e8f3;--soft:#f4f8ff;--white:#fff;--green:#16a66a}*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#f6f9ff;line-height:1.65}a{text-decoration:none;color:inherit}.wrap{max-width:1160px;margin:auto;padding:0 22px}.top{background:#071f5d;color:#dce8ff;font-size:12px}.top .wrap,.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:18px}.top .wrap{min-height:34px}.nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}.nav .wrap{min-height:68px}.logo{font-weight:900;font-size:23px;color:#0b3a88}.links{display:flex;gap:16px;font-weight:800;font-size:13px}.cta{background:#0d62ff;color:#fff;padding:10px 14px;border-radius:9px}.hero{background:radial-gradient(circle at 85% 20%,rgba(13,98,255,.17),transparent 30%),linear-gradient(135deg,#f9fbff,#eaf2ff);padding:52px 0 38px}.crumb{font-size:11px;color:#647392}.kicker{display:inline-block;background:#e8f1ff;color:#2459c7;border-radius:999px;padding:6px 9px;font-size:9px;font-weight:900;letter-spacing:.1em;margin-top:10px}.hero h1{font-size:50px;line-height:1.05;letter-spacing:-2px;margin:12px 0;color:#082b6f}.hero p{font-size:17px;max-width:850px;color:#405678;margin:0}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.chips span{background:#fff;border:1px solid #dbe5f4;border-radius:999px;padding:7px 10px;font-size:11px;font-weight:800}.main{padding:32px 0 60px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:22px}.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 10px 28px rgba(28,60,111,.05);margin-bottom:16px}.card h2{font-size:25px;margin:0 0 9px;color:#0a347c}.card h3{font-size:17px;margin:18px 0 7px}.card p,.card li{font-size:14px;color:#536684}.card ul,.card ol{padding-left:20px;margin:8px 0}.note{background:#fff8e9;border:1px solid #f0dca4;color:#755d1e;border-radius:12px;padding:13px;font-size:12px}.good{background:#eefaf5;border:1px solid #cfeadd;color:#206b4d;border-radius:12px;padding:13px;font-size:12px}.toc{position:sticky;top:88px}.toc a{display:block;padding:8px 0;border-bottom:1px solid #edf1f6;color:#31527e;font-size:12px;font-weight:800}.actions{display:grid;gap:9px;margin-top:14px}.button{display:block;text-align:center;background:#0d62ff;color:#fff;border-radius:10px;padding:11px 14px;font-size:12px;font-weight:900}.button.alt{background:#eef4ff;color:#1854c3}.faq details{background:#fff;border:1px solid var(--line);border-radius:11px;padding:13px 15px;margin:8px 0}.faq summary{font-weight:900;cursor:pointer;font-size:13px}.official a{color:#0d62ff;font-weight:800}.footer{background:#071f5d;color:#d5e1fa;padding:28px 0;margin-top:40px;font-size:11px}.footer .wrap{display:flex;justify-content:space-between;gap:20px}@media(max-width:900px){.links{display:none}.layout{grid-template-columns:1fr}.toc{position:static}.hero h1{font-size:40px}}@media(max-width:560px){.hero{padding:36px 0 28px}.hero h1{font-size:34px}.top .wrap{justify-content:center}.top .wrap span:last-child{display:none}.footer .wrap{flex-direction:column}}
 /* Premium 3D UI */
 .button,.cta{box-shadow:0 5px 0 rgba(4,29,83,.22),0 12px 24px rgba(13,98,255,.20),inset 0 1px 0 rgba(255,255,255,.32);text-shadow:0 1px 0 rgba(0,0,0,.12);transition:transform .18s ease,box-shadow .18s ease,filter .18s ease}.button:hover,.cta:hover{transform:translateY(-2px);filter:saturate(1.06);box-shadow:0 7px 0 rgba(4,29,83,.18),0 16px 30px rgba(13,98,255,.23),inset 0 1px 0 rgba(255,255,255,.38)}.button:active,.cta:active{transform:translateY(3px);box-shadow:0 2px 0 rgba(4,29,83,.2),0 6px 12px rgba(13,98,255,.16)}.card,.chips span,.faq details{box-shadow:0 7px 0 rgba(7,31,93,.025),0 18px 38px rgba(28,60,111,.08);transition:transform .2s ease,box-shadow .2s ease}.card:hover{transform:translateY(-3px);box-shadow:0 9px 0 rgba(7,31,93,.025),0 24px 46px rgba(28,60,111,.12)}.hero h1,.card h2{text-shadow:0 1px 0 #fff,0 8px 20px rgba(8,43,111,.08)}:focus-visible{outline:3px solid rgba(13,98,255,.28);outline-offset:3px}@media(max-width:560px){.card:hover{transform:none}}@media(prefers-reduced-motion:reduce){.button,.cta,.card{transition:none!important;transform:none!important}}
+/* VizeErasmus / Educenter-inspired free education design system.
+   Original adaptation; no demo photos or third-party template assets copied. */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--navy:#102f42;--navy2:#0c2636;--blue:#087d78;--blue2:#0d9488;--ink:#173447;--muted:#647785;--line:#e0e9e7;--soft:#f3f8f6;--green:#0b9b77}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#f7faf9;color:#173447}
+.shell,.wrap{max-width:1240px}
+.topbar,.top{background:#0e3040}
+.navbar,.nav{background:#fff;border-color:#e5eeeb;box-shadow:0 4px 22px #102f4209}
+.brand,.logo,.brand strong{font-family:Manrope,system-ui,sans-serif;color:#133e49;font-weight:800;letter-spacing:-.045em}
+.menu .cta,.desktop-nav .nav-cta,.cta,.button,.searchbox button{background:#087d78;color:#fff;box-shadow:none!important;text-shadow:none!important;border-radius:9px}
+.menu .cta:hover,.desktop-nav .nav-cta:hover,.cta:hover,.button:hover{box-shadow:0 12px 22px #087d782b!important}
+.pagehero,body[data-country] .hero{position:relative;overflow:hidden;background:radial-gradient(circle at 84% 27%,#247d7445 0,transparent 32%),linear-gradient(120deg,#0e3040,#155b61);color:#fff;padding-top:72px;padding-bottom:68px}
+.pagehero:after,body[data-country] .hero:after{content:"";position:absolute;width:310px;height:310px;border:1px solid #ffffff26;border-radius:50%;right:4%;top:-115px;pointer-events:none;box-shadow:0 0 0 48px #ffffff07,0 0 0 105px #ffffff05}
+.pagehero .shell,body[data-country] .hero .wrap{position:relative;z-index:1}
+.pagehero h1,body[data-country] .hero h1{font-family:Manrope,system-ui,sans-serif;color:#fff;font-size:clamp(34px,4.3vw,61px);line-height:1.11;letter-spacing:-.055em;max-width:940px;text-shadow:none}
+.pagehero p,body[data-country] .hero p{color:#d8e9e7;font-size:clamp(14px,1.4vw,18px);line-height:1.75}
+.pagehero .crumb,body[data-country] .hero .crumb,.pagehero .crumb a,body[data-country] .hero .crumb a{color:#b7d8d4}
+.pagehero .eyebrow,body[data-country] .hero .kicker{background:#ffffff20;color:#c8f8e9;border:1px solid #ffffff40}
+body[data-country] .hero .chips span{color:#134a4b;background:#fff;border:0}
+.main{padding-top:44px}
+.card,.linkcard,.country-card,.newsitem,.faq details,.community-panel,.news-card,.destination,.quick-card{background:#fff;border:1px solid #e1ebe8;border-radius:16px;box-shadow:0 14px 32px #10394a0b;text-shadow:none}
+.card{padding:clamp(19px,2.4vw,30px)}
+.card h2,.card h3,.section-title h2,.linkcard b{font-family:Manrope,system-ui,sans-serif;color:#153e49;letter-spacing:-.035em;text-shadow:none}
+.card h2{font-size:clamp(21px,2.1vw,28px)}
+.card p,.card li,.linkcard span,.country-card p{color:#536d79;line-height:1.8}
+.linkcard{padding:22px;min-height:155px;display:flex;flex-direction:column;gap:6px}
+.linkcard em,.country-card a,.sourcebox a,.official a,.toc a{color:#087d78}
+.pill,.eyebrow{background:#e0f3ed;color:#087d78}
+.checkpanel{background:linear-gradient(135deg,#123c4c,#0a776f);box-shadow:0 18px 40px #10394a20}
+.button.secondary,.button.alt{background:#e3f3ef;color:#08665f}
+.newsart{background:linear-gradient(135deg,#d4eee5,#a8d6d0);color:#0c645f}
+.newsitem{padding:20px;gap:20px}
+.newsitem p{line-height:1.7}
+.faq details{padding:18px 20px}
+.footer,footer.footer{background:#0c2939;color:#d8e8e5}
+:focus-visible{outline:3px solid #16a99c;outline-offset:3px}
+@media(max-width:900px){.pagehero,body[data-country] .hero{padding-top:48px;padding-bottom:47px}}
+@media(max-width:560px){.pagehero,body[data-country] .hero{padding-top:37px;padding-bottom:39px}.pagehero h1,body[data-country] .hero h1{font-size:34px}.card,.linkcard,.newsitem{padding:18px}.linkcard{min-height:0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
