@@ -1,36 +1,48 @@
-# Vize Erasmus
+# Vize Erasmus | Erasmus & Student Visa Guides
 
-Erasmus öğrencileri için Avrupa ülkelerine yönelik vize, evrak, randevu ve başvuru rehberleri.
+**Türkiye'den Avrupa'ya Erasmus ve eğitim hareketliliği için ülke bazlı vize rehberleri.**
 
-🌐 **Resmî web sitesi:** https://vizeerasmus.com/
+[Web sitesini ziyaret et](https://vizeerasmus.com/) · [GitHub profilimiz](https://github.com/aloalmanyavize) · [Gündoğan Vize](https://github.com/aloalmanyavize/gundoganvize)
 
-## Vize Erasmus ne sunar?
+---
 
-- Ülke bazlı Erasmus vize rehberleri
-- Öğrenci vizesi için gerekli evrak listeleri
-- Konsolosluk ve başvuru merkezi süreçleri
-- Randevu ve başvuru adımları
-- Almanya, Fransa, İspanya ve diğer Avrupa ülkeleri için öğrenci vizesi içerikleri
-- Campus France ve ülkeye özel prosedürler
-- Erasmus öğrencileri için sık sorulan sorular
+## Platform
 
-## Hedef
+Vize Erasmus, öğrenci ve Erasmus katılımcılarının ülkeye göre vize süreçlerini ve belge hazırlığını daha kolay anlamasına yardımcı olmak için geliştirilen bir bilgilendirme projesidir.
 
-Vize Erasmus; öğrencilerin dağınık vize bilgileri arasında kaybolmadan, ülke bazında düzenlenmiş ve anlaşılır başvuru rehberlerine ulaşmasını amaçlayan bir bilgi platformudur.
+| Bölüm | İçerik |
+| --- | --- |
+| Ülke rehberleri | Avrupa ülkeleri için öğrenci ve Erasmus vizesi bilgileri |
+| Evrak listeleri | Ülke ve başvuru türüne göre belge hazırlama rehberleri |
+| Başvuru süreci | Randevu, konsolosluk ve başvuru merkezi aşamalarına ilişkin açıklamalar |
+| Öğrenci kaynakları | Campus France, sık sorulan sorular ve ülkeye özel prosedürler |
+
+**İlgili ülkeler:** Almanya, Fransa, İspanya ve diğer Avrupa destinasyonları.
+
+## Explore / Keşfet
+
+- **[Ana sayfa](https://vizeerasmus.com/)** — Ülke ve başvuru rehberlerine başlangıç.
+- **[GitHub kaynak deposu](https://github.com/aloalmanyavize/vizeerasmus)** — Web projesinin erişime açık kaynak kodu.
+- **[Gündoğan Vize](https://gundoganvize.com/)** — Diğer vize türleri için ayrı bilgilendirme platformu.
+
+## İlgili dijital projeler
+
+| Proje | Web sitesi |
+| --- | --- |
+| ALO Almanya Vize | [aloalmanyavize.com](https://aloalmanyavize.com/) |
+| Almanya Ulusal Vize | [almanyaulusalvize.com](https://almanyaulusalvize.com/) |
+| Gündoğan Vize | [gundoganvize.com](https://gundoganvize.com/) |
+| Vize Gündem Haber | [vizegundemhaber.com](https://vizegundemhaber.com/) |
+| ALO Vize Gerekli Evraklar | [alovizegereklievraklar.com](https://alovizegereklievraklar.com/) |
 
 ## English
 
-**Vize Erasmus** is a Türkiye-based Erasmus visa information platform covering student visa requirements, document checklists, appointment procedures and country-specific application guides for European destinations.
+**Vize Erasmus** is a Türkiye-based information platform covering Erasmus and student visa procedures for European destinations. It organizes country guides, document checklists, appointment steps and related educational mobility resources in one place.
 
-Website: https://vizeerasmus.com/
+Explore the website: **[vizeerasmus.com](https://vizeerasmus.com/)**.
 
-## İlgili projeler
+---
 
-- Gündoğan Vize: https://gundoganvize.com/
-- ALO Almanya Vize: https://aloalmanyavize.com/
-- Almanya Ulusal Vize: https://almanyaulusalvize.com/
-- Vize Gündem Haber: https://vizegundemhaber.com/
+> Bağımsız bilgilendirme platformudur; konsolosluk veya resmî başvuru merkezi değildir. Vize şartları değişebilir. Başvuru yapmadan önce ilgili ülkenin resmî temsilciliği ve yetkili başvuru merkezinin güncel duyurularını kontrol edin.
 
-> Vize kuralları değişebilir. Başvuru öncesinde ilgili konsolosluk ve yetkili başvuru merkezinin güncel resmî bilgileri kontrol edilmelidir.
-
-**Anahtar konular:** Erasmus, Erasmus visa, student visa, öğrenci vizesi, Almanya Erasmus, Fransa Erasmus, İspanya Erasmus, vize evrakları, vize randevusu.
+**Topics:** Erasmus, student visa, European education, Germany visa, France visa, international mobility, visa documents, visa appointments.
