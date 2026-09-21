@@ -41,3 +41,64 @@ body[data-country] .hero .chips span{color:#134a4b;background:#fff;border:0}
 @media(max-width:900px){.pagehero,body[data-country] .hero{padding-top:48px;padding-bottom:47px}}
 @media(max-width:560px){.pagehero,body[data-country] .hero{padding-top:37px;padding-bottom:39px}.pagehero h1,body[data-country] .hero h1{font-size:34px}.card,.linkcard,.newsitem{padding:18px}.linkcard{min-height:0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* VizeErasmus Forest & Lime — original adaptation of supplied design reference.
+   Inter Black substitutes for proprietary Wise Sans. No Wise branding/assets. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+:root{--forest:#163300;--lime:#9fe870;--fog:#e8ebe6;--linen:#e2f6d5;--paper:#fff;--charcoal:#454745;--navy:#163300;--navy2:#054d28;--blue:#163300;--blue2:#054d28;--ink:#163300;--muted:#6a6c6a;--line:#e8ebe6;--soft:#e2f6d5;--green:#054d28}
+body{font-family:Inter,system-ui,sans-serif;color:var(--charcoal);background:var(--paper)}
+.shell,.wrap{max-width:1200px}
+.topbar,.top{background:var(--forest);color:#fff}
+.navbar,.nav{background:#fff;border-bottom:1px solid var(--fog);box-shadow:none}
+.brand,.brand strong,.logo{font-family:Inter,system-ui,sans-serif;font-weight:900;letter-spacing:-.055em;color:var(--forest)}
+.brand-mark{background:var(--forest)!important;border:0;box-shadow:none!important;transform:none!important}
+.brand-mark:after{color:var(--lime)}
+.desktop-nav .nav-cta,.menu .cta,.cta,.button,.searchbox button{background:var(--lime)!important;color:var(--forest)!important;border:1px solid transparent!important;border-radius:9999px!important;font-weight:800;box-shadow:none!important;text-shadow:none!important;transform:none!important}
+.desktop-nav .nav-cta:hover,.menu .cta:hover,.cta:hover,.button:hover,.searchbox button:hover{background:#b4f38d!important;box-shadow:none!important;transform:none!important}
+.button.secondary,.button.alt{background:#fff!important;border:1px solid var(--forest)!important;color:var(--forest)!important}
+body:has(.hero-grid) .hero{background:#fff;padding:68px 0 72px}
+body:has(.hero-grid) .hero:before{display:none}
+body:has(.hero-grid) .hero-grid{grid-template-columns:1fr 1fr;gap:52px}
+body:has(.hero-grid) .hero h1{font-family:Inter,system-ui,sans-serif;font-size:clamp(48px,6.3vw,94px);font-weight:900;line-height:.98;letter-spacing:-.065em;color:var(--forest);text-shadow:none}
+body:has(.hero-grid) .hero h1 span{color:var(--forest)}
+body:has(.hero-grid) .hero p{color:var(--charcoal);font-size:clamp(16px,1.45vw,19px)}
+body:has(.hero-grid) .eyebrow,.eyebrow,.kicker,.pill{background:var(--linen);color:var(--forest);border:0;border-radius:9999px}
+body:has(.hero-grid) .hero-visual{background:var(--fog);border:0;border-radius:28px;box-shadow:none;min-height:440px}
+body:has(.hero-grid) .campus-photo-hero{isolation:isolate}
+body:has(.hero-grid) .campus-main-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+body:has(.hero-grid) .campus-photo-shade{position:absolute;inset:0;background:linear-gradient(0deg,#163300b8,transparent 62%)}
+body:has(.hero-grid) .campus-photo-caption{position:absolute;left:32px;right:24px;bottom:34px;display:grid;gap:8px;color:#fff}
+body:has(.hero-grid) .campus-photo-caption span{font-size:10px;letter-spacing:.17em;font-weight:800;color:var(--lime)}
+body:has(.hero-grid) .campus-photo-caption strong{font-size:clamp(26px,3vw,42px);line-height:1.04;font-weight:900;letter-spacing:-.045em}
+body:has(.hero-grid) .campus-photo-caption small{font-size:13px}
+body:has(.hero-grid) .campus-student-chip{position:absolute;top:18px;right:18px;padding:12px 16px;border-radius:9999px;background:#fff;color:var(--forest);font-size:12px;font-weight:800}
+body:has(.hero-grid) .campus-student-chip span{color:#054d28}
+body:has(.hero-grid) .searchbox{border:1px solid #bfc9bd;box-shadow:none;border-radius:9999px;padding:5px 5px 5px 14px}
+body:has(.hero-grid) .searchbox button{padding:14px 23px}
+body:has(.hero-grid) .quick-grid{margin-top:0;margin-bottom:70px}
+body:has(.hero-grid) .quick-card,.card,.linkcard,.country-card,.newsitem,.faq details,.community-panel,.news-card,.destination,.country-links a{border:1px solid var(--fog);background:#fff;box-shadow:none!important;border-radius:10px}
+body:has(.hero-grid) .quick-card:hover,.card:hover,.linkcard:hover,.country-card:hover,.newsitem:hover{box-shadow:none!important;border-color:#a8c69b}
+body:has(.hero-grid) .quick-card .icon{background:var(--linen);border-radius:9999px}
+body:has(.hero-grid) .section-title h2,.section-title h2,.card h2,.card h3,.linkcard b{font-family:Inter,system-ui,sans-serif;color:var(--forest);font-weight:900;letter-spacing:-.045em;text-shadow:none}
+body:has(.hero-grid) .section-title h2{font-size:clamp(28px,3vw,42px)}
+body:has(.hero-grid) .assistant-panel,.checkpanel{background:var(--forest);color:#fff;border-radius:28px;box-shadow:none}
+body:has(.hero-grid) .assistant-panel h2,.checkpanel h2{color:var(--lime);text-shadow:none}
+body:has(.hero-grid) .assistant-btn{background:var(--lime)!important;color:var(--forest)!important;border-radius:9999px;box-shadow:none!important}
+body:has(.hero-grid) .assistant-panel:before{display:none}
+body:has(.hero-grid) .destination-body a,.linkcard em,.country-card a,.sourcebox a,.official a,.toc a{color:var(--forest);text-decoration:underline;text-underline-offset:3px}
+.pagehero,body[data-country] .hero{background:var(--forest);color:#fff}
+.pagehero:after,body[data-country] .hero:after{display:none}
+.pagehero h1,body[data-country] .hero h1{font-family:Inter,system-ui,sans-serif;font-size:clamp(38px,5.4vw,78px);font-weight:900;letter-spacing:-.065em;line-height:1.02;color:var(--lime);text-shadow:none}
+.pagehero p,body[data-country] .hero p{color:#f0f5ed}
+.pagehero .eyebrow,body[data-country] .hero .kicker{background:var(--lime);color:var(--forest);border:0}
+.pagehero .crumb,body[data-country] .hero .crumb{color:#d5e5d0}
+.main{background:#fff}
+.card h2,body[data-country] .card h2{color:var(--forest)}
+.chips span,body[data-country] .hero .chips span{background:#fff;color:var(--forest);border:0;border-radius:9999px}
+.newsart{background:var(--linen);color:var(--forest)}
+.footer,footer.footer,.bottom-cta{background:var(--forest);color:#fff}
+.bottom-cta .primary,.bottom-cta .whatsapp{background:var(--lime)!important;color:var(--forest)!important}
+:focus-visible{outline:3px solid #527d3b;outline-offset:3px}
+@media(max-width:980px){body:has(.hero-grid) .hero-grid{grid-template-columns:1fr}body:has(.hero-grid) .hero-visual{min-height:340px}}
+@media(max-width:680px){body:has(.hero-grid) .hero{padding:38px 0}body:has(.hero-grid) .hero h1{font-size:clamp(42px,12vw,65px)}body:has(.hero-grid) .hero-visual{min-height:280px}body:has(.hero-grid) .campus-photo-caption{left:18px;bottom:20px}body:has(.hero-grid) .campus-student-chip{font-size:10px;right:10px;top:10px}.pagehero h1,body[data-country] .hero h1{font-size:clamp(36px,9vw,50px)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
