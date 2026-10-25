@@ -105,7 +105,7 @@ export default {
     const canonical = canonicalUrl(url);
     const html = await response.text();
     if (isHomepageFallback(html, url.pathname)) return notFoundResponse(headers);
-    const body = replaceSeoUrl(html, canonical);
+    const body = replaceSeoUrl(html, canonical).replace(/src=(["'])([^"']*country-data\.js)(?:\?[^"']*)?\1/g, 'src="$2?v=20261025-seo"');
     headers.delete("content-length");
     headers.set("Link", `<${canonical}>; rel="canonical"`);
 
