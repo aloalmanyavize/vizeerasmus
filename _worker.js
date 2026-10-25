@@ -34,6 +34,29 @@ function replaceSeoUrl(html, canonical) {
   return body;
 }
 
+
+// Cloudflare's SPA asset fallback can return index.html with HTTP 200 for a
+// nonexistent URL. Keep the original canonical long enough to detect that case;
+// otherwise rewriting it would manufacture an indexable duplicate homepage.
+function isHomepageFallback(html, pathname) {
+  if (cleanPath(pathname) === "/") return false;
+  const tag = html.match(/<link\b[^>]*\brel=["']canonical["'][^>]*>/i);
+  const href = tag && tag[0].match(/\bhref=["']([^"']+)["']/i);
+  if (!href) return false;
+  try { return cleanPath(new URL(href[1], SITE_ORIGIN).pathname) === "/"; }
+  catch { return false; }
+}
+function notFoundResponse(headers) {
+  headers.set("Content-Type", "text/html; charset=utf-8");
+  headers.set("X-Robots-Tag", "noindex, follow");
+  headers.set("Cache-Control", "no-store");
+  headers.set("X-SEO-Not-Found", "homepage-fallback");
+  headers.delete("content-length");
+  headers.delete("etag");
+  headers.delete("Link");
+  return new Response('<!doctype html><html lang="tr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>Sayfa Bulunamadı</title><main style="max-width:42rem;margin:12vh auto;padding:24px;font-family:system-ui"><h1>Sayfa bulunamadı</h1><p>Aradığınız sayfa taşınmış veya mevcut olmayabilir.</p><a href="/">Ana sayfaya dön</a></main></html>', {status:404,headers});
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -65,6 +88,11 @@ export default {
       headers.set("X-Robots-Tag", "noindex, nofollow");
     }
 
+    if (response.status >= 400) {
+      headers.set("X-Robots-Tag", "noindex, follow");
+      return new Response(response.body, {status:response.status,statusText:response.statusText,headers});
+    }
+
     const contentType = headers.get("content-type") || "";
     if (!contentType.includes("text/html")) {
       return new Response(response.body, {
@@ -76,6 +104,7 @@ export default {
 
     const canonical = canonicalUrl(url);
     const html = await response.text();
+    if (isHomepageFallback(html, url.pathname)) return notFoundResponse(headers);
     const body = replaceSeoUrl(html, canonical);
     headers.delete("content-length");
     headers.set("Link", `<${canonical}>; rel="canonical"`);
@@ -87,3 +116,4 @@ export default {
     });
   },
 };
+
